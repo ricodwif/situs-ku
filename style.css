@@ -1,0 +1,304 @@
+.navbar{
+    background-color: black;
+}
+awal {
+    font-family: Times New Roman PS Pro Italic;
+    color: aliceblue;
+    font-size: 300%;
+    letter-spacing: 0%;
+    word-spacing:0cm;
+}
+
+.greek{
+    font-family: Times New Roman PS Pro Italic;
+}
+
+.btn0{
+    height: 40px;
+    width:40%;
+    outline:none;
+    border:none;
+    background:rgb(139,69,19);
+    color: rgb(222,184,135);
+    font-family: 'Crimson Pro', serif;
+    border-radius: 60px;
+}
+
+.gambar{
+    position: relative;
+}
+
+.tulisan{
+    position: absolute;
+    color: black;
+}
+
+*{
+	padding: 0;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: Times New Roman PS Pro Italic;
+	text-decoration: none;
+}
+.team{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background:#212529;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.team-content{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+	align-items: center;
+	gap: 2rem;
+	text-align: center;
+	margin-top: 4rem;
+}
+.team-content img{
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+.center h1{
+	color: #000;
+	font-size: 4rem;
+	text-align: center;
+}
+.box{
+	padding: 16px;
+	background: #fff;
+	border-radius: 15px;
+	transition: all .38s ease;
+}
+.box h3{
+	font-size: 23px;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 8px;
+}
+.box h5{
+	font-size: 15px;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+}
+.icons i{
+	display: inline-block;
+	color: #000;
+	font-size: 20px;
+	margin: 0 8px;
+	transition: all .38s ease;
+}
+.icons i:hover{
+	transform: scale(1.2);
+}
+.box:hover{
+	transform: translateY(-10px);
+	cursor: pointer;
+}
+
+@media(max-width: 1240px){
+	.team{
+		width: 100%;
+		height: auto;
+		padding: 90px 2%;
+	}
+	.center h1{
+		font-size: 3.2rem;
+	}
+}
+
+**{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Times New Roman PS Pro Italic;
+}
+
+.about{
+    width: 100x;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .content img{
+    height: auto;
+    width: 200px;
+    max-width: 100%;
+}
+
+.text{
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.content{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text h1{
+    color: rgb(139,69,19);
+    font-size: 85px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.text h5{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.text p{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: rgb(139,69,19);
+    color: #fff;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: .4s;
+    cursor: pointer;
+}
+
+@media screen and (max-widht: 1180px) {
+    .about{
+        width: 100%;
+        height: auto;
+        padding: 70px 0px;
+    }
+}
+
+@media screen and (max-widht: 650px) {
+    .about .content img{
+        margin-top: 35px;
+    }
+    .text h1{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+*{
+	margin: 10;
+	padding: 10;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 1.7rem;
+	font-family: 'Merriweather Sans', sans-serif;
+	background: #fff;
+	color: #000;
+	padding: 0rem;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 2rem;
+	font-size: 4rem;
+}
+
+.all-products{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.product{
+	overflow: hidden;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	width: 240px;
+	height: 400px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 2rem;
+}
+
+.product .product-title, .product .product-price{
+	font-size: 18px;
+}
+
+.product:hover img{
+	scale:  1.1;
+}
+
+.product:hover {
+	box-shadow: 5px 15px 25px #000;
+}
+
+.product img {
+	height: 200px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+
+.product a:link, .product a:visited{
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	background-color: rgb(139,69,19);
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	margin-top: 0rem;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+
+.product a:hover{
+	transform: scale(1.1);
+}
+
+.formulir{
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    margin-top: 0rem;
+    letter-spacing: 0cm;
+}
